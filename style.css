@@ -18,3 +18,26 @@ body {
   font-size: 1.5em;
   font-weight: bold;
 }
+.summary-pic {
+  width: 30%;
+}
+
+.Visualizations {
+  width: 45%;
+}
+
+h1,h2{
+  color: rgb(48, 167, 167);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 767px){
+  body{
+  background-color: #fff
+  }
+.navbar {
+  background-color: rgb(48, 167, 167) !important;
+}
+
+}
