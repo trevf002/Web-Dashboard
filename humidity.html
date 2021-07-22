@@ -17,6 +17,40 @@
   <title>humidity</title>
 </head>
 <body>
-  
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav ml-auto collapse navbar-collapse" id="navbarSupportedContent">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="cloudiness.html">Versus Cloudiness</a>
+          <a class="dropdown-item" href="humidity.html">Versus Humidity</a>
+          <a class="dropdown-item" href="temp.html">Versus Temperature</a>
+          <a class="dropdown-item" href="windspeed.html">Versus Windspeed</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="comparison.html">Comparison</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container content">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="col-md-12">
+                <h3>Humidity</h3>
+                <hr>
+                
+                <img src="Resources/assets/images/Fig2.png" width="100%" alt="humidity">
+                <br>
+                <p>Humidity vs latitude plot is not showing any trends. Humidity appears to be mostly regular across latitudes, though with an absence of lower humidity values near the equator and Arctic. This makes sense, due to the humidity of tropical climates, and the northern latitudes being on the boundary between winter and spring.  </p>
+            </div>
+        </div>
 </body>
 </html>
